@@ -9,7 +9,9 @@ module.exports = {
   },
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off"
+    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    test: /\.svg$/,
+    loader: 'vue-svg-loader', // `vue-svg` for webpack 1.x
   },
   overrides: [
     {
