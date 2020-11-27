@@ -33,7 +33,7 @@ export default {
   float: right;
   position: relative;
   margin-top: -35%;
-  opacity: 75%;
+  opacity: 75% !important;
   z-index: 1;
   margin-right: 10%;
 }
