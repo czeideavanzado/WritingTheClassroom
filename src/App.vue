@@ -7,19 +7,19 @@
           alt="Writing The Classroom Logo"
           class="shrink mr-2"
           contain
-          src="../src/assets/logo.png"
+          src="../src/assets/writing the classroom.png"
           transition="scale-transition"
-          width="40"
+          width="250"
         />
-        <div style="height:100%; font-size: 100%">Writing The Classroom</div>
       </div>
 
       <v-spacer></v-spacer>
 
       <v-btn
         href="#"
-        text
         color="white"
+        outlined
+        elevation="2"
       >
         <span class="mr-2">REGISTER</span>
       </v-btn>
@@ -36,7 +36,6 @@ import HelloWorld from "./components/HelloWorld";
 
 export default {
   name: "App",
-
   components: {
     HelloWorld
   },
