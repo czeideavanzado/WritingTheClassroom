@@ -41,7 +41,7 @@
         </v-list-item>
 
         <v-list-item>
-          <v-btn v-if="$vuetify.breakpoint.smAndUp" elevation="2" block dark>
+          <v-btn v-if="$vuetify.breakpoint.xsOnly" elevation="2" block dark>
             Register
           </v-btn>
         </v-list-item>
