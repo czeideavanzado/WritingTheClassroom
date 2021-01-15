@@ -99,7 +99,13 @@
             width="100%"
             style="display: flex; justify-content: center;align-items: center"
           >
-            <v-btn class="ma-2" outlined style="" elevation="2" color="white">
+            <v-btn
+              v-if="false"
+              class="ma-2"
+              elevation="2"
+              color="white"
+              outlined
+            >
               View Complete Schedule
             </v-btn>
           </div>
