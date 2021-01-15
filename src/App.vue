@@ -1,7 +1,7 @@
 <template>
   <v-app id="everything">
     <v-app-bar class="white--text" color="rgba(0, 0, 0, 0.6)" app>
-      <v-app-bar-nav-icon color="white" @click="drawer = !drawer">
+      <v-app-bar-nav-icon v-if="false" color="white" @click="drawer = !drawer">
       </v-app-bar-nav-icon>
 
       <div>
@@ -18,7 +18,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        v-if="$vuetify.breakpoint.smAndUp"
+        v-if="$vuetify.breakpoint.smAndUp && false"
         color="white"
         elevation="2"
         outlined
