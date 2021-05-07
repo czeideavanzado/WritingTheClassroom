@@ -50,7 +50,7 @@
             conference theme.
           </p>
         </div>
-        <div class="d-flex-column">
+        <div class="d-flex-column" v-if="false">
           <div id="conference-schedule"><h1>Conference Schedule</h1></div>
           <div class="d-flex justify-space-between">
             <div class="schedule pink-circle">
@@ -121,7 +121,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import url("https://use.typekit.net/kfl2rcb.css");
 #earn-units {
   color: white;
