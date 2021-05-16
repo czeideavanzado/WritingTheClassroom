@@ -14,35 +14,223 @@
           </v-col>
         </v-row>
 
-        <v-row>
+        <v-row align="center" justify="center">
           <v-col
             v-for="(schedule, index) in schedules"
             :key="`schedule-${index}`"
             cols="12"
-            md="4"
           >
-            <div class="fill-height pink-circle pa-5">
+            <div class="fill-height pa-5">
               <h2 class="schedule-date">{{ schedule.date }}</h2>
-              <h3 class="schedule-day">Morning</h3>
-              <ul>
-                <li
-                  class="schedule-todo"
-                  v-for="(todo, morningIndex) in schedule.morning"
-                  :key="`morning-${morningIndex}`"
-                >
-                  {{ todo }}
-                </li>
-              </ul>
-              <h3 class="schedule-day">Afternoon</h3>
-              <ul>
-                <li
-                  class="schedule-todo"
-                  v-for="(todo, afternoonIndex) in schedule.afternoon"
-                  :key="`afternoon-${afternoonIndex}`"
-                >
-                  {{ todo }}
-                </li>
-              </ul>
+              <v-expansion-panels dark>
+                <v-expansion-panel class="schedule-todo" color="red">
+                  <v-expansion-panel-header>
+                    <h3 class="schedule-day">Morning</h3>
+                  </v-expansion-panel-header>
+
+                  <v-expansion-panel-content>
+                    <div
+                      class="schedule-todo"
+                      v-for="(todo, morningIndex) in schedule.morning"
+                      :key="`morning-${morningIndex}`"
+                    >
+                      <p class="title">- {{ todo.text }}</p>
+
+                      <v-row
+                        v-if="!!todo.image"
+                        align="center"
+                        justify="center"
+                      >
+                        <v-col class="text-center" cols="12">
+                          <v-avatar class="mb-5" :size="imageSize" tile>
+                            <img :src="todo.image" />
+                          </v-avatar>
+
+                          <p>
+                            {{ todo.imageTitle }}
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row
+                        v-if="todo.lectures"
+                        align="center"
+                        justify="center"
+                      >
+                        <v-col
+                          v-for="(lecture, lectureIndex) in todo.lectures"
+                          :key="`lecture-${lectureIndex}`"
+                          cols="12"
+                        >
+                          <v-row align="center" justify="center">
+                            <v-col class="text-center" cols="12">
+                              <template v-if="!lecture.instructors">
+                                <v-avatar class="mb-5" :size="imageSize" tile>
+                                  <img :src="lecture.image" />
+                                </v-avatar>
+
+                                <p>
+                                  {{ lecture.instructor }}
+                                </p>
+
+                                <p>
+                                  {{ lecture.title }}
+                                </p>
+                              </template>
+
+                              <template v-else>
+                                <v-row align="center" justify="center">
+                                  <v-col
+                                    v-for="(instructor,
+                                    instructorIndex) in lecture.instructors"
+                                    :key="`instructor-${instructorIndex}`"
+                                    cols="12"
+                                    md="4"
+                                  >
+                                    <v-avatar
+                                      class="mb-5"
+                                      :size="imageSize"
+                                      tile
+                                    >
+                                      <img :src="instructor.image" />
+                                    </v-avatar>
+
+                                    <p>
+                                      {{ instructor.name }}
+                                    </p>
+
+                                    <p>
+                                      {{ instructor.caption }}
+                                    </p>
+                                  </v-col>
+                                </v-row>
+                              </template>
+
+                              <p
+                                :style="{
+                                  'padding-left': $vuetify.breakpoint.mdAndUp
+                                    ? '250px'
+                                    : '',
+                                  'padding-right': $vuetify.breakpoint.mdAndUp
+                                    ? '250px'
+                                    : ''
+                                }"
+                              >
+                                {{ lecture.description }}
+                              </p>
+                            </v-col>
+                          </v-row>
+                        </v-col>
+                      </v-row>
+                    </div>
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+              </v-expansion-panels>
+
+              <v-expansion-panels dark>
+                <v-expansion-panel class="schedule-todo" color="red">
+                  <v-expansion-panel-header>
+                    <h3 class="schedule-day">Afternoon</h3>
+                  </v-expansion-panel-header>
+
+                  <v-expansion-panel-content>
+                    <div
+                      class="schedule-todo"
+                      v-for="(todo, afternoonIndex) in schedule.afternoon"
+                      :key="`afternoon-${afternoonIndex}`"
+                    >
+                      <p class="title">- {{ todo.text }}</p>
+
+                      <v-row
+                        v-if="!!todo.image"
+                        align="center"
+                        justify="center"
+                      >
+                        <v-col class="text-center" cols="12">
+                          <v-avatar class="mb-5" :size="imageSize" tile>
+                            <img :src="todo.image" />
+                          </v-avatar>
+
+                          <p>
+                            {{ todo.imageTitle }}
+                          </p>
+                        </v-col>
+                      </v-row>
+
+                      <v-row
+                        v-if="todo.lectures"
+                        align="center"
+                        justify="center"
+                      >
+                        <v-col
+                          v-for="(lecture, lectureIndex) in todo.lectures"
+                          :key="`lecture-${lectureIndex}`"
+                          cols="12"
+                        >
+                          <v-row align="center" justify="center">
+                            <v-col class="text-center" cols="12">
+                              <template v-if="!lecture.instructors">
+                                <v-avatar class="mb-5" :size="imageSize" tile>
+                                  <img :src="lecture.image" />
+                                </v-avatar>
+
+                                <p>
+                                  {{ lecture.instructor }}
+                                </p>
+
+                                <p>
+                                  {{ lecture.title }}
+                                </p>
+                              </template>
+
+                              <template v-else>
+                                <v-row align="center" justify="center">
+                                  <v-col
+                                    v-for="(instructor,
+                                    instructorIndex) in lecture.instructors"
+                                    :key="`instructor-${instructorIndex}`"
+                                    cols="12"
+                                    md="4"
+                                  >
+                                    <v-avatar
+                                      class="mb-5"
+                                      :size="imageSize"
+                                      tile
+                                    >
+                                      <img :src="instructor.image" />
+                                    </v-avatar>
+
+                                    <p>
+                                      {{ instructor.name }}
+                                    </p>
+
+                                    <p>
+                                      {{ instructor.caption }}
+                                    </p>
+                                  </v-col>
+                                </v-row>
+                              </template>
+
+                              <p
+                                :style="{
+                                  'padding-left': $vuetify.breakpoint.mdAndUp
+                                    ? '250px'
+                                    : '',
+                                  'padding-right': $vuetify.breakpoint.mdAndUp
+                                    ? '250px'
+                                    : ''
+                                }"
+                              >
+                                {{ lecture.description }}
+                              </p>
+                            </v-col>
+                          </v-row>
+                        </v-col>
+                      </v-row>
+                    </div>
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+              </v-expansion-panels>
             </div>
           </v-col>
         </v-row>
@@ -52,47 +240,16 @@
 </template>
 
 <script>
+const schedules = require("../../data/schedules");
+
 export default {
   name: "Schedule",
-  data: () => ({
-    schedules: [
-      {
-        date: "Jun 17, 2021 (Thursday)",
-        morning: [
-          "Opening Ceremonies",
-          "Keynote Lecture by Sir Ricky Lee",
-          "Teaching Poetry/Pagtuturo ng Tula"
-        ],
-        afternoon: [
-          "Teaching Fiction/Pagtuturo ng Kuwento",
-          "Teaching Creative Nonfiction/Pagtuturo ng Sanaysay"
-        ]
-      },
-      {
-        date: "Jun 18, 2021 (Friday)",
-        morning: [
-          "Teaching Drama and Performance/Pagtuturo ng Dula at Pagtatanghal",
-          "Teaching Philippine Literature/Pagtuturo ng Panitikan ng Pilipinas"
-        ],
-        afternoon: [
-          "Teaching World Literature/Pagtuturo ng Panitikan",
-          "Teaching Art Appreciation/ Pagtuturo ng Pagpapahalaga sa Sining"
-        ]
-      },
-      {
-        date: "Jun 19, 2021 (Saturday)",
-        morning: [
-          "Teaching Literary Criticism/ Pagtuturo ng Panuring Pampanitikan",
-          "Roundtable Discussion - ENTANGLEMENTS: Creating “Fields of Learning” for  Multidisciplinary Dialogue and Collaboration"
-        ],
-        afternoon: [
-          "Best Practices",
-          "Closing Ceremonies",
-          "Awarding of Certificates"
-        ]
-      }
-    ]
-  })
+  data() {
+    return {
+      imageSize: 200,
+      schedules
+    };
+  }
 };
 </script>
 
@@ -117,11 +274,11 @@ export default {
 
 .schedule-day {
   font-weight: 900;
-  color: white;
+  color: #fada28;
 }
 
 .schedule-todo {
-  color: white;
+  color: #fada28;
 }
 
 .pink-circle {
