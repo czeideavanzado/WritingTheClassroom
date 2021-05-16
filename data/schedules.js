@@ -2,7 +2,7 @@
 
 module.exports = [
   {
-    date: "Jun 17, 2021 (Thursday)",
+    date: "Day 1 - June 17, 2021 (Thursday)",
     morning: [
       {
         text: "Opening Ceremonies"
@@ -102,7 +102,7 @@ module.exports = [
     ]
   },
   {
-    date: "Jun 18, 2021 (Friday)",
+    date: "Day 2 - June 18, 2021 (Friday)",
     morning: [
       {
         text:
@@ -225,7 +225,7 @@ module.exports = [
     ]
   },
   {
-    date: "Jun 19, 2021 (Saturday)",
+    date: "Day 3 - June 19, 2021 (Saturday)",
     morning: [
       {
         text:
