@@ -140,9 +140,12 @@
             </v-btn>
           </div>
         </div>
-        <div class="d-flex-column" >
-          <div id="HowToRegister"><h1>How to Register</h1></div>
-          
+        <div class="d-flex-column" id="HowToRegister" >
+            <div ><h1>How to Register</h1></div>
+            <img class="steps" src="../assets/misc_step1.png" width="65%" />
+            <img class="steps" src="../assets/misc_step2.png" width="65%" />
+            <img class="steps" src="../assets/misc_step3.png" width="65%" />  
+            <img class="steps" src="../assets/misc_info.png" width="65%" />  
         </div>
       </div>
     </v-container>
@@ -228,7 +231,7 @@ h2 {
   text-align: center;
 }
 
-#HowToRegister > h1 {
+#HowTo > h1 {
   font: 6vw Gopher, bold;
   color: #fada28;
   font-weight: 900;
@@ -272,6 +275,16 @@ h3 {
 }
 
 #rickyleePhoto {
+  margin: auto;
+}
+
+#HowToRegister {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.steps {
   margin: auto;
 }
 
