@@ -22,8 +22,8 @@
           >
             <div class="fill-height pa-5">
               <h2 class="schedule-date">{{ schedule.date }}</h2>
-              <v-expansion-panels dark>
-                <v-expansion-panel class="schedule-todo" color="red">
+              <v-expansion-panels  dark >
+                <v-expansion-panel class="schedule-todo">
                   <v-expansion-panel-header>
                     <h3 class="schedule-day">Morning</h3>
                   </v-expansion-panel-header>
@@ -67,22 +67,22 @@
                               <v-avatar class="mb-5" :size="imageSize" tile>
                                 <img :src="lecture.image" />
                               </v-avatar>
-
-                              <p>
-                                {{ lecture.instructor }}
-                              </p>
-
-                              <p>
+                              
+                              <h2>
                                 {{ lecture.title }}
-                              </p>
+                              </h2>
+                              <h3>
+                                {{ lecture.instructor }}
+                              </h3>
+
 
                               <p
                                 :style="{
                                   'padding-left': $vuetify.breakpoint.mdAndUp
-                                    ? '250px'
+                                    ? '100px'
                                     : '',
                                   'padding-right': $vuetify.breakpoint.mdAndUp
-                                    ? '250px'
+                                    ? '100px'
                                     : ''
                                 }"
                               >
@@ -193,7 +193,7 @@ export default {
       imageSize: 200,
       schedules: [
         {
-          date: "Jun 17, 2021 (Thursday)",
+          date: "Day 1 - June 17, 2021 (Thursday)",
           morning: [
             {
               text: "Opening Ceremonies"
@@ -308,11 +308,10 @@ export default {
   color: #fada28;
   font-weight: 900;
   text-shadow: -0.15vw -0.15vw #8e745d;
-  margin-top: -2.5vw;
 }
 
 .schedule-date {
-  font: brandon-grotesque, sans-serif;
+  font: 2vw brandon-grotesque, sans-serif;
   color: #fada28;
   font-weight: 500;
   text-shadow: -0.15vw -0.15vw #8e745d;
@@ -320,12 +319,10 @@ export default {
 }
 
 .schedule-day {
-  font-weight: 900;
-  color: #fada28;
-}
-
-.schedule-todo {
-  color: #fada28;
+  font: 1.5vw atten-new, sans-serif;
+  font-weight: 300;
+  color: white;
+  
 }
 
 .pink-circle {
@@ -342,4 +339,37 @@ export default {
   padding: 5px 8px;
   margin: 1vh 0px;
 }
+
+
+h3{
+  font: 1.5vw atten-new, sans-serif;
+  font-weight: 900;
+  color: white;
+}
+h2 {
+  font: 2.5vw Gopher, bold;
+  color: #fada28;
+  font-weight: 900;
+  text-shadow: -0.15vw -0.15vw #8e745d;
+
+}
+h1 {
+  font: 6vw Gopher, bold;
+  color: #fada28;
+  font-weight: 900;
+  text-shadow: -0.15vw -0.15vw #8e745d;
+  margin-top: -2.5vw;
+}
+
+p{
+  font-size: 1vw;
+  font-weight: 300;
+  color: white;
+}
+.title{
+  font: 2vw atten-new, sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
 </style>
