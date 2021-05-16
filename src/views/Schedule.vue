@@ -23,7 +23,7 @@
             <div class="fill-height pa-5">
               <h2 class="schedule-date">{{ schedule.date }}</h2>
               <v-expansion-panels dark>
-                <v-expansion-panel class="schedule-todo" color="red">
+                <v-expansion-panel class="schedule-todo">
                   <v-expansion-panel-header>
                     <h3 class="schedule-day">Morning</h3>
                   </v-expansion-panel-header>
@@ -128,7 +128,7 @@
               </v-expansion-panels>
 
               <v-expansion-panels dark>
-                <v-expansion-panel class="schedule-todo" color="red">
+                <v-expansion-panel class="schedule-todo">
                   <v-expansion-panel-header>
                     <h3 class="schedule-day">Afternoon</h3>
                   </v-expansion-panel-header>
