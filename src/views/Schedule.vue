@@ -64,17 +64,47 @@
                         >
                           <v-row align="center" justify="center">
                             <v-col class="text-center" cols="12">
-                              <v-avatar class="mb-5" :size="imageSize" tile>
-                                <img :src="lecture.image" />
-                              </v-avatar>
+                              <template v-if="!lecture.instructors">
+                                <v-avatar class="mb-5" :size="imageSize" tile>
+                                  <img :src="lecture.image" />
+                                </v-avatar>
 
-                              <p>
-                                {{ lecture.instructor }}
-                              </p>
+                                <p>
+                                  {{ lecture.instructor }}
+                                </p>
 
-                              <p>
-                                {{ lecture.title }}
-                              </p>
+                                <p>
+                                  {{ lecture.title }}
+                                </p>
+                              </template>
+
+                              <template v-else>
+                                <v-row align="center" justify="center">
+                                  <v-col
+                                    v-for="(instructor,
+                                    instructorIndex) in lecture.instructors"
+                                    :key="`instructor-${instructorIndex}`"
+                                    cols="12"
+                                    md="4"
+                                  >
+                                    <v-avatar
+                                      class="mb-5"
+                                      :size="imageSize"
+                                      tile
+                                    >
+                                      <img :src="instructor.image" />
+                                    </v-avatar>
+
+                                    <p>
+                                      {{ instructor.name }}
+                                    </p>
+
+                                    <p>
+                                      {{ instructor.caption }}
+                                    </p>
+                                  </v-col>
+                                </v-row>
+                              </template>
 
                               <p
                                 :style="{
@@ -139,27 +169,49 @@
                         >
                           <v-row align="center" justify="center">
                             <v-col class="text-center" cols="12">
-                              <v-avatar class="mb-5" :size="imageSize" tile>
-                                <img :src="lecture.image" />
-                              </v-avatar>
+                              <template v-if="!lecture.instructors">
+                                <v-avatar class="mb-5" :size="imageSize" tile>
+                                  <img :src="lecture.image" />
+                                </v-avatar>
 
-                              <p>
-                                {{ lecture.instructor }}
-                              </p>
+                                <p>
+                                  {{ lecture.instructor }}
+                                </p>
 
-                              <p>
-                                {{ lecture.title }}
-                              </p>
+                                <p>
+                                  {{ lecture.title }}
+                                </p>
+                              </template>
+
+                              <template v-else>
+                                <v-row align="center" justify="center">
+                                  <v-col
+                                    v-for="(instructor,
+                                    instructorIndex) in lecture.instructors"
+                                    :key="`instructor-${instructorIndex}`"
+                                    cols="12"
+                                    md="4"
+                                  >
+                                    <v-avatar
+                                      class="mb-5"
+                                      :size="imageSize"
+                                      tile
+                                    >
+                                      <img :src="instructor.image" />
+                                    </v-avatar>
+
+                                    <p>
+                                      {{ instructor.name }}
+                                    </p>
+
+                                    <p>
+                                      {{ instructor.caption }}
+                                    </p>
+                                  </v-col>
+                                </v-row>
+                              </template>
 
                               <p
-                                v-if="lecture.subtitle"
-                                class="subtitle-2 font-italic"
-                              >
-                                {{ lecture.subtitle }}
-                              </p>
-
-                              <p
-                                v-html="lecture.description"
                                 :style="{
                                   'padding-left': $vuetify.breakpoint.mdAndUp
                                     ? '250px'
@@ -168,7 +220,9 @@
                                     ? '250px'
                                     : ''
                                 }"
-                              ></p>
+                              >
+                                {{ lecture.description }}
+                              </p>
                             </v-col>
                           </v-row>
                         </v-col>

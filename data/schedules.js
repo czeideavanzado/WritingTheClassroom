@@ -100,5 +100,228 @@ module.exports = [
         ]
       }
     ]
+  },
+  {
+    date: "Jun 18, 2021 (Friday)",
+    morning: [
+      {
+        text:
+          "Panel 4: Teaching Drama and Performance/Pagtuturo ng Dula at Pagtatanghal",
+        lectures: [
+          {
+            title:
+              "Can you hear me?: Transferring Drama Pedagogy to the Virtual Space",
+            instructor: "Anne Richie Balgos",
+            image: require("../src/assets/speakers/Anne Richie Balgos.jpg"),
+            description:
+              "How could a Zoom meeting become parallel with re-arranging the classroom into a play space for drama activities? Whether teachers use drama as a teaching tool or teach drama as a course on whatever platform, the goal in mind is to create a safe community where students make their own choices and learn from each other. This panel lecture explores how the pandemic could be a chance for students to learn independently, critically, and creatively through virtual storytelling and theatre making. It extends to a presentation of simple yet fun theatre activities that may be seamlessly transferred from the face-to-face classroom to the Zoom screens."
+          },
+          {
+            title: "From Drama to Performance",
+            instructor: "Jazmin B. Llana",
+            image: require("../src/assets/speakers/Jazmin Llana.jpg"),
+            description:
+              "This master class will examine the three major terms drama, theatre, and performance and their interrelations, and the process of transformation of a work from text to performance. Using as main reference the essay by W.B. Worthen, ‘Drama, Performativity, and Performance’, the class will explore answers to the question What is the performance of a text a performance of? and ask how theories of performance can help in addressing the question. The aim of the session is to strengthen participants’ critical understanding of drama, theatre, and performance through an exposure to performance studies approaches."
+          },
+          {
+            title:
+              "Zooming in on Online Plays in the Age of Covid: Inspiring Creativity, Collaboration, and Critical Thinking Among Students through Virtual Theater",
+            instructor: "Mark Adrian Crisostomo Ho",
+            image: require("../src/assets/speakers/Adrian Ho.jpg"),
+            description:
+              "As the landscape of education continues to shift from face-to-face interaction to online classrooms, teachers are compelled to find creative approaches to teaching that would keep students engaged and thus optimize their learning. How do teachers effectively develop and build the skills that students need in the 21st century when all are holed up remotely at home with no face-to-face interaction? How do they spark student engagement in the age of quarantine and virtual classes? In this masterclass, the lecturer will make the case for incorporating virtual theater, or Zoom plays, in the teaching of Literature and Creative Writing. He will share his insights on the efficacy of online theater as a pedagogical tool for inspiring creativity, collaboration, and critical thinking among students."
+          }
+        ]
+      },
+      {
+        text:
+          "Panel 5: Teaching Philippine Literature/Pagtuturo ng Panitikan ng Pilipinas",
+        lectures: [
+          {
+            title: "Pagbasa ng Panahon Tungo sa Pag-unawa ng mga Milenyal",
+            instructor: "Genevieve Asenjo",
+            image: require("../src/assets/speakers/Genevieve Asenjo.jpg"),
+            description:
+              "Naririnig pa rin natin palagi ang “noong unang panahon,” “noong panahon naming,” at marami pang bersyon ng pagtukoy sa panahon katulad na lang ng “milenyal” at “boomer.” Nariyan din ang “geological time,” “evolutionary time,” at panahon ng climate change. Kapag sinasabi rin nating “noon,” “ngayon,” “bukas,” ano ba ang ibig sabihin? Ang nakaraan bilang kasaysayan, ang kasaysayan bilang kultura ng walang-katapusang-ngayon, at ang hinaharap bilang kondisyon ng balik-tanaw o retrofuture. Inihahain ng masterclass ang pag-iisip tungkol sa panahon sa pamamagitan ng pagsipat sa piling akda ng tatlong Pambansang Alagad ng Sining sa Panitikan: ang nobelang Galaw ng Asoge (2004) ni Cirilo F. Bautista, nobelang Margosatubig (1946) ni Ramon L. Muzones, at House of Memory (1997), mga sanaysay ni Resil Mojares. Sa masterclass na ito, kapwa diskurso ang panahon at metodo ng pagbasa sa hinahangad na higit pang pag-unawa sa mga mag-aaral na milenyal."
+          },
+          {
+            title: "Teaching Philippine Literature as a History of Pain",
+            instructor: "Shirley O. Lua",
+            image: require("../src/assets/speakers/Shirley Lua.jpg"),
+            description:
+              "In writing verses and narratives of pain, the Filipino writer assumes a historical act, becoming a witness to the history of traumas. Their work depicts how violence and brutality have intruded in their personal life, and how this personal history is bound to the traumas of others, and to the larger history of trauma. As teachers of literature, we model for our students the role of “therapeutic listeners”—listening attentively to the cry of the Filipino writer, and thereby, perceiving their departures and claims to survival. Works cited will include those of National Artists F. Sionil José and Cirilo F. Bautista."
+          },
+          {
+            title:
+              "Remixing Folklore: Investigating the Narrative Blueprint in Old Tales Adapted for New Times",
+            instructor: "Mary Jessel Duque",
+            image: require("../src/assets/speakers/Jessel Duque.jpg"),
+            description:
+              "Can a diwata stalk her human crush? Are gods also capable of ghosting? What does the legend of the lansones have to do with Marian apparitions and young queer girls?<br /><br />" +
+              "Folklore suffers from the bad reputation of being about boring, dusty stories rooted in an irrelevant past and only serves moral lessons. In truth, these narratives rooted in our pre-colonial past are actually dynamic—changing and evolving with the times to reveal the concerns of the people who tell them.<br /><br />" +
+              "In this session, we will explore the concept of “modular narratives” and how these serve as blueprints for contemporary Philippine writers who continue to mine these oral narratives, retooling and remixing in order to reveal our modern anxieties, fears, dilemmas and ultimately gifting us with glimpses of the future. We will read short stories, flash fiction and poetry with roots in folkloric traditions but now reflecting the concerns of our students and the complex 21st century lives within and beyond the classroom. "
+          }
+        ]
+      }
+    ],
+    afternoon: [
+      {
+        text: "Panel 6: Teaching World Literature/Pagtuturo ng Panitikan",
+        lectures: [
+          {
+            title:
+              "Voices Behind Screens: Literature and the World in Digital Classrooms",
+            instructor: "Sylvelyn Jo Almanzor",
+            image: require("../src/assets/speakers/Jo Almanzor.jpg"),
+            description:
+              "This class will be conversing with 21st Century learners in the age of digital classrooms: How do teachers of the humanities allow for individual voices behind (muted) screens to speak of how the world passes through and makes its way through homes? By juxtaposing effects of digital algorithms that focus more on numbers, this class will be dealing with the essence of learning beyond systems, institutions, and modules. Rather, through speculative fiction, poetry, and creative nonfiction, world literature classes can cross the borders of dehumanizing data toward personal, caring learning spaces."
+          },
+          {
+            title:
+              "Hopeful Migrations: Teaching Cathy Garcia-Molina’s “Hello, Love, Goodbye”",
+            instructor: "Jose Kervin Cesar B. Calabias",
+            description:
+              "Feminist scholar Neferti Tadiar describes the body of the Filipina domestic worker as a “labour-commodity,” and this “constituent and constituting” national subject is indeed prevalent in contemporary migrant representations where their sacrifice magnifies their remittance heroism. However, while the abject conditions of globalized labor remain, these seem to have overshadowed avowed agencies migrant women possess in shaping their conditions, relations, and futures. This lecture hopes to examine these affective possibilities through the 2019 box-office hit “Hello, Love, Goodbye” directed by Cathy Garcia-Molina. Focusing on the domestic worker Joy (Kathrine Bernardo) and how she navigates cosmopolitan Hong Kong, this class introduces World literature through reshaping/reimagining the country’s “global commodity” into empowered subjects of critical Philippine modernity."
+          },
+          {
+            title: "Panels into the World",
+            instructor: "Tanya Sevilla Simon",
+            image: require("../src/assets/speakers/Tanya Simon.jpg"),
+            description:
+              "Comics and graphic novels are so much more than the superhero narratives that dominate the bookstore shelves. Further, this medium is much more than just “words and pictures” that make it seem like easy and fun reading. This panel lecture looks into how comics and graphic novels can be used effectively in the classroom, both as a text for analysis and as an activity for meaningful expression. The discussion will use examples from various genres and narratives by artists of different nationalities. Whether it is a single panel, a sequence, or an entire page, the language of comics can speak powerfully to our students and compel them to think critically and empathically about the many events, experiences, and perspectives that make up our world."
+          }
+        ]
+      },
+      {
+        text:
+          "Panel 7: Teaching Art Appreciation/ Pagtuturo ng Pagpapahalaga sa Sining",
+        lectures: [
+          {
+            title:
+              "Of Rocks and Stones: Musical Edges and Edginess in the Contemporary Art Classroom",
+            instructor: "Johann Vladimir Espiritu",
+            image: require("../src/assets/speakers/Johann Espiritu.jpg"),
+            description:
+              "Many of us employ loose understandings of basic artistic elements when we talk about anything that remotely resembles an artistic text. Take music, for instance: today, when most of us would talk about songs, the conversation is often limited to whether they’re fast or slow, or whether their melody is catchy or not, or whether the vocalist is impressive or not –– lazy, inept, insufficient descriptions that do nothing to further one’s absorption of the musical piece. One doesn’t need a music degree to participate in this master class; they only need to be interested in music –– in listening to it and in talking about it. Our approach to discussing the language of song will explore every beat, every clearing of the throat, every rise and fall, every step of a melismatic passage, every snap of the finger –– every little thing that either sharpens the present and persistent grit in the song, or illuminates the polished edges of the text’s every measure. All toward furthering the discussion to how the song potentially speaks to us, about us, and of course, fostering in one’s art class the practice of beginning a worthwhile discussion about our humanity by speaking ordinarily about something."
+          },
+          {
+            title: "How Does Art Represent the World?",
+            instructor: "Cris Barbra Pe",
+            image: require("../src/assets/speakers/Cris Barbara Pe.jpg"),
+            description:
+              "When students enter the classroom, they often perceive art as a form of expression. While this is true, it is only one way of viewing art. In this class, participants will be introduced to the age-old theory of art as imitation. Is this still relevant today? How is art as imitation or representation seen in different artworks across time? Does it still hold true for contemporary art? Join us as we explore the answers to this question through an interactive session."
+          },
+          {
+            title:
+              "Art Appreciation for Dummies. . .or An Idiot’s Guide to Teaching Art in the Time of COVID",
+            subtitle: "by a Self-proclaimed Art Idiot",
+            instructor: "Anne Frances N. Sangil",
+            image: require("../src/assets/speakers/Anne Frances Sangil.jpg"),
+            description:
+              "How does one teach art appreciation when the teacher is not a self-confessed art enthusiast or is not even an artist? Worse, how do you teach art in the time of COVID-19, armed not with crayons or paint brushes, but with Zoom and maybe a ring light? Fear not, (potential) art appreciation teachers. This class will introduce you to some of the tried and tested tricks that will help you survive, perhaps even flourish, in this particular arena (because yes, it is a battle and you are a gladiator without a vaccine). Aside from war stories, expect to hear various teaching strategies as practiced, perfected, and continually questioned for over 20 years, B.C. (Before COVID-19) and even DC (During COVID-19), by the self-proclaimed Art Idiot Facilitator. And yes, no need to bring crayons and clay. The facilitator cannot draw or sculpt to save her own life."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    date: "Jun 19, 2021 (Saturday)",
+    morning: [
+      {
+        text:
+          "Panel 8: Teaching Literary Criticism/ Pagtuturo ng Panuring Pampanitikan",
+        lectures: [
+          {
+            title: "The Unfinished Work of Theory: On Decoloniality",
+            instructor: "Antonette Talaue-Arogo",
+            image: require("../src/assets/speakers/Antonette Arogo.jpg"),
+            description:
+              "The critical discontents with postcolonialism have shifted the analytical focus to other conceptual categories such as the Global South and decoloniality. Similar to the well-established paradigm, the critique of decoloniality centers on the ignorance of thinkers and erasure of histories by metropolitan scholars who dominate decolonial practices. Resonant still and more than ever is Isagani R. Cruz’s insight into the act of othering that inhabits theory, an ethical and political problem of silencing that accounts for and demands theory’s unfinishability. This master class is an introduction to decoloniality, its tropes and premises as well as merits and limitations. In view of its suppressions, this talk aims to foreground the contributions of Philippine Kritika to decoloniality."
+          },
+          {
+            title: "Intertextuality in the Classroom: Using ‘Culture’ as Text",
+            instructor: "Mary Harmony Guevarra",
+            image: require("../src/assets/speakers/Harmony Guevarra.jpg"),
+            description:
+              "Moving beyond being a mere theoretical concept, Intertextuality has become a dominant characteristic in the teaching and learning of 21st Century Literature due to its ability to tap on 21st century skills (i.e. critical thinking, digital literacy and collaboration) and themes (globalization, environmental literacy, etc.) due to its concentration on the networking of and interrelationships between literary texts. To intertext ‘culture’ as a text or as supplementary text to the understanding of literary works is this master class’s modest attempt to expand and update the pedagogical grounds of 21st century literature. This master class will discuss ways on how cultural motifs and phenomenon – such as present-day trends on Filipino migration and cosmopolitanism in Southeast Asia - intertext with key Philippine and World Literature texts in the 21st century."
+          },
+          {
+            title:
+              "Spatial Coordinates: Locating ‘Spaces’ in Literary and Cultural Studies",
+            instructor: "Juan Miguel Leandro Quizon",
+            image: require("../src/assets/speakers/Leandro Miguel Quizon.jpg"),
+            description:
+              "The spatial turn, introduced by human geographer Edward Soja during the mid-nineties, calls for greater focus that must be accorded to the category of space. In recent years, discussions of space in literary and cultural studies revolved around concepts such as topology, topography, and geography, to name a few. In this lecture, I attempt to trace the fundamental dynamics of spatiality and how such concepts unpack literary and cultural texts for further scrutiny. I posit that spatial approaches introduce additional layers when examining literature and culture. How are real and imagines spaces read in and through literature and culture? What supplementary dimensions and realms are opened when spatiality is introduced in the equation of unloading texts, textualities, and contexts? By outlining a rough sketch of the contours of spatial movements within specific junctures in history, I will give examples on how to operationalize spatial methodologies in chosen literary and cultural texts. Ultimately, through its interdisciplinarity, we can locate the coordinates of spatiality in literature and culture, providing a cartographic lens that broadens our field."
+          }
+        ]
+      },
+      {
+        text:
+          "Roundtable Discussion: ENTANGLEMENTS: Creating “Fields of Learning” for  Multidisciplinary Dialogue and Collaboration",
+        lectures: [
+          {
+            title: "",
+            instructors: [
+              {
+                name: "Marjorie Evasco",
+                image: require("../src/assets/speakers/Marjorie Evasco.jpg"),
+                caption: "Literature and the Humanities"
+              },
+              {
+                name: "Padma Perez",
+                image: require("../src/assets/speakers/Padmapani Perez.jpg"),
+                caption: "Cultural Anthropology and the Social Sciences"
+              },
+              {
+                name: "Chona Camille Abeledo",
+                image: require("../src/assets/speakers/Chona Abeledo.jpg"),
+                caption: "Biology and the Sciences"
+              }
+            ],
+            description:
+              "The Covid19 pandemic wrought and continues to write into everyone’s lives a historical paradigm shift in our work as educators and communicators. Before the pandemic, we articulated our belief that in the Anthropocene, educators must face the challenge of creating and exploring new multidisciplinary spaces for dialogue and collaboration among them, and between them and the learners under their instruction in the so-called “specialized” disciplines of human knowledge. Now, we believe even more urgently that in order to confront the unprecedented and unimaginable changes taking place in the natural environment, educators need to put in place in their praxis a radical shift from the rigid exclusivity or “purity” of specialized academic disciplines, to the supple, and creative inclusivity of collaborative “fields of learning”. Such fields of learning would nurture agile scholarship with the ability to uncover and discover layers of complex entanglements, intersections, and conjunctions between Literature and the Humanities, Cultural Anthropology and the Social Sciences, Biology and the Sciences. This expansive interconnected complexity also breaks the academic walls which give the illusion that the classroom is separate from actual communities in threatened farming and fishing villages in the country, or that human thought and behavior take place in bounded socio-cultural spaces that stand apart from nature. Donna Haraway calls this ecosystemic cross-pollination and collaboration “sympoeisis” — both a way of staying with the trouble, of making each other, and looking for creative solutions to problems that threaten life on our planet."
+          }
+        ]
+      }
+    ],
+    afternoon: [
+      {
+        text: "Share Ko Lang!: Best Practices Namin",
+        lectures: [
+          {
+            title: "",
+            instructors: [
+              {
+                name: "Paterno B. Baloloy Jr.",
+                image: require("../src/assets/speakers/Best Practices_Paterno Baloloy Jr.jpg"),
+                caption: "Caluag National High School / Caluag, Quezon"
+              },
+              {
+                name: "Mr. Joenel Lacaden",
+                image: require("../src/assets/speakers/Best Practices_Joenel Lacaden.jpg"),
+                caption:
+                  "Philippine Science High School - Cagayan Valley Campus / Bayombong, Nueva Vizcaya"
+              },
+              {
+                name: "Dr. Leonardo Munalim",
+                image: require("../src/assets/speakers/Best Practices_Leonardo Munalim.jpg"),
+                caption: "Philippine Women’s University / Metro Manila"
+              },
+              {
+                name: "Maria Bianca Louise L. Villacorta",
+                image: require("../src/assets/speakers/Best Practices_Maria Bianca Louise Villacorta.jpg"),
+                caption: "Keys School-Manila / Metro Manila"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        text: "Closing Ceremonies"
+      },
+      {
+        text: "Awarding of Certificates"
+      }
+    ]
   }
 ];
