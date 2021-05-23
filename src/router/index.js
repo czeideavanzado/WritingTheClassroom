@@ -19,7 +19,7 @@ const routes = [
     component: Home
   },
   {
-    path: "/",
+    path: "/speakers",
     name: "Speakers",
     component: Speakers
   },
