@@ -50,60 +50,71 @@
             conference theme.
           </p>
         </div>
-        <div class="d-flex-column">
-          <div id="conference-schedule"><h1>Conference Schedule</h1></div>
-          <div class="d-flex justify-space-between">
-            <div class="schedule pink-circle">
-              <h2>Day 1</h2>
-              <ul>
-                <li>Keynote Lecture</li>
-                <li>Teaching Poetry/Pagtuturo ng Tula</li>
-                <li>Teaching Fiction/Pagtuturo ng Kuwento</li>
-                <li>Teaching Creative Non-fiction/Pagtuturo ng Sanaysay</li>
-              </ul>
-            </div>
-            <div class="schedule pink-circle">
-              <h2>Day 2</h2>
-              <ul>
-                <li>
-                  Teaching Drama and Performance/Pagtuturo ng Dula at
-                  Pagtatanghal
-                </li>
-                <li>
-                  Teaching Philippine Literature/Pagtuturo ng Panitikan ng
-                  Pilipinas
-                </li>
-                <li>Teaching World Literature/Pagtuturo ng Panitikan</li>
-                <li>
-                  Teaching Art Appreciation/ Pagtuturo ng Pagpapahalaga sa
-                  Sining
-                </li>
-              </ul>
-            </div>
-            <div class="schedule pink-circle">
-              <h2>Day 3</h2>
-              <ul>
-                <li>
-                  Teaching Literary Criticism/ Pagtuturo ng Panuring
-                  Pampanitikan
-                </li>
-                <li>
-                  Roundtable Discussion: “Entangled Fields: Creating
-                  Interdisciplinary Spaces for Collaboration and Dialogues”
-                </li>
-                <li>Best Practices</li>
-              </ul>
-            </div>
+        <v-container fluid>
+          <div id="conference-schedule">
+            <h1>Conference Schedule</h1>
           </div>
-          <div
-            width="100%"
-            style="display: flex; justify-content: center;align-items: center"
-          >
-            <v-btn class="ma-2" elevation="2" color="white" outlined>
-              View Complete Schedule
-            </v-btn>
-          </div>
-        </div>
+
+          <v-row class="pt-0 mt-0" justify="space-between">
+            <v-col cols="12" md="4">
+              <div class="schedule pink-circle">
+                <h2>Day 1</h2>
+                <ul>
+                  <li>Keynote Lecture</li>
+                  <li>Teaching Poetry/Pagtuturo ng Tula</li>
+                  <li>Teaching Fiction/Pagtuturo ng Kuwento</li>
+                  <li>Teaching Creative Non-fiction/Pagtuturo ng Sanaysay</li>
+                </ul>
+              </div>
+            </v-col>
+
+            <v-col cols="12" md="4">
+              <div class="schedule pink-circle">
+                <h2>Day 2</h2>
+                <ul>
+                  <li>
+                    Teaching Drama and Performance/Pagtuturo ng Dula at
+                    Pagtatanghal
+                  </li>
+                  <li>
+                    Teaching Philippine Literature/Pagtuturo ng Panitikan ng
+                    Pilipinas
+                  </li>
+                  <li>Teaching World Literature/Pagtuturo ng Panitikan</li>
+                  <li>
+                    Teaching Art Appreciation/ Pagtuturo ng Pagpapahalaga sa
+                    Sining
+                  </li>
+                </ul>
+              </div>
+            </v-col>
+
+            <v-col cols="12" md="4">
+              <div class="schedule pink-circle">
+                <h2>Day 3</h2>
+                <ul>
+                  <li>
+                    Teaching Literary Criticism/ Pagtuturo ng Panuring
+                    Pampanitikan
+                  </li>
+                  <li>
+                    Roundtable Discussion: “Entangled Fields: Creating
+                    Interdisciplinary Spaces for Collaboration and Dialogues”
+                  </li>
+                  <li>Best Practices</li>
+                </ul>
+              </div>
+            </v-col>
+          </v-row>
+
+          <v-row class="text-center pt-5">
+            <v-col cols="12">
+              <v-btn to="/schedule" elevation="2" color="white" outlined>
+                View Complete Schedule
+              </v-btn>
+            </v-col>
+          </v-row>
+        </v-container>
         <div id="rickylee">
           <img
             id="rickyleePhoto"
@@ -293,8 +304,9 @@ h3 {
 }
 
 .schedule {
-  width: 30%;
+  /* width: 30%; */
   padding: 20px;
+  height: 100%;
 }
 
 #rickylee {
