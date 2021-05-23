@@ -9,14 +9,7 @@
           <div class="pink-circle">
             <h3>June 17-19 | AN ONLINE CONFERENCE</h3>
           </div>
-          <div id="earn-units" class="blue-circle">
-            <h3>
-              Earn 24 CPD Units for attending panel sessions on the teaching of:
-            </h3>
-            Poetry, Fiction, Drama & Performance, Creative Nonfiction, Literary
-            Criticism, Art Appreciation, Philippine Literature and World
-            Literature
-          </div>
+         
         </div>
         <img id="drawing" src="../assets/drawing2.png" width="55%" />
         <div id="about-the-conference">
