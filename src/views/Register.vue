@@ -1,14 +1,13 @@
 <template>
   <v-container fluid>
     <v-row justify="space-around">
-      <div class="d-flex-column" id="HowToRegister" >
-            <div ><h1>How to Register</h1></div>
-            <img class="steps" src="../assets/misc_step1.png" width="65%" />
-            <img class="steps" src="../assets/misc_step2.png" width="65%" />
-            <img class="steps" src="../assets/misc_step3.png" width="65%" />  
-            <img class="steps" src="../assets/misc_info.png" width="65%" />  
-        </div>
-      
+      <div class="d-flex-column" id="HowToRegister">
+        <div><h1>How to Register</h1></div>
+        <img class="steps" src="../assets/misc_step1.png" width="65%" />
+        <img class="steps" src="../assets/misc_step2.png" width="65%" />
+        <img class="steps" src="../assets/misc_step3.png" width="65%" />
+        <img class="steps" src="../assets/misc_info.png" width="65%" />
+      </div>
     </v-row>
   </v-container>
 </template>

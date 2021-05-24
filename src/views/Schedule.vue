@@ -74,7 +74,6 @@
                                 <h3>
                                   {{ lecture.instructor }}
                                 </h3>
-
                               </template>
 
                               <template v-else>
@@ -94,7 +93,7 @@
                                       <img :src="instructor.image" />
                                     </v-avatar>
 
-                                     <h2>
+                                    <h2>
                                       {{ instructor.name }}
                                     </h2>
 
@@ -173,7 +172,7 @@
                                   <img :src="lecture.image" />
                                 </v-avatar>
 
-                               <h2>
+                                <h2>
                                   {{ lecture.title }}
                                 </h2>
                                 <h3>
@@ -273,7 +272,6 @@ export default {
   font: 1.5vw atten-new, sans-serif;
   font-weight: 300;
   color: white;
-  
 }
 
 .pink-circle {
@@ -291,8 +289,7 @@ export default {
   margin: 1vh 0px;
 }
 
-
-h3{
+h3 {
   font: 1.5vw atten-new, sans-serif;
   font-weight: 900;
   color: white;
@@ -302,7 +299,6 @@ h2 {
   color: #fada28;
   font-weight: 900;
   text-shadow: -0.1vw -0.1vw #8e745d;
-
 }
 h1 {
   font: 6vw Gopher, bold;
@@ -312,15 +308,14 @@ h1 {
   margin-top: -2.5vw;
 }
 
-p{
+p {
   font-size: 1vw;
   font-weight: 300;
   color: white;
 }
-.title{
+.title {
   font: 2vw atten-new, sans-serif;
   font-weight: 100;
   color: white;
 }
-
 </style>
