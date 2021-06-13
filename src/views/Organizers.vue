@@ -71,7 +71,7 @@
     >
       <v-row class="text-center">
         <v-col cols="12">
-          <h1 style="margin:auto;">{{ organizer.division }}</h1>
+          <h2 style="margin:auto;">{{ organizer.division }}</h2>
         </v-col>
       </v-row>
 
@@ -84,7 +84,7 @@
         >
           <v-card
             class="text-center"
-            color="pink"
+            color="rgba(82, 92, 193, 0.8)"
             style="border-radius: 15px; height: 100%"
           >
             <br />
@@ -93,11 +93,11 @@
               <img :src="head.image" :alt="head.name" />
             </v-avatar>
 
-            <v-card-title class="headline white--text" style="display: block">
-              {{ head.name }}
+            <v-card-title class="white--text no-text-wrap" style="display: block">
+              <h3>{{ head.name }}</h3>
             </v-card-title>
 
-            <v-card-subtitle class="subtitle-1 white--text">
+            <v-card-subtitle class="body-2 white--text text-wrap">
               {{ head.position }}
             </v-card-subtitle>
           </v-card>
@@ -113,7 +113,7 @@
         >
           <v-card
             class="text-center"
-            color="pink"
+            color="rgba(82, 92, 193, 0.8)"
             style="border-radius: 15px; height: 100%"
           >
             <br />
@@ -122,11 +122,11 @@
               <img :src="member.image" :alt="member.name" />
             </v-avatar>
 
-            <v-card-title class="headline white--text" style="display: block">
-              {{ member.name }}
+            <v-card-title class="white--text no-text-wrap" style="display: block">
+              <h3>{{ member.name }}</h3>
             </v-card-title>
 
-            <v-card-subtitle class="subtitle-1 white--text">
+            <v-card-subtitle class="body-2 white--text">
               {{ member.position }}
             </v-card-subtitle>
           </v-card>
@@ -152,7 +152,7 @@ export default {
         ],
         members: [
           {
-            name: "Mesándel Virtusio Arguelles",
+            name: "Mesándel Arguelles",
             position: "Deputy Conference Director",
             image: require("../assets/speakers/Ayer Arguelles.jpg")
           },
@@ -179,7 +179,7 @@ export default {
         ],
         members: [
           {
-            name: "Antonette Talaue-Arogo",
+            name: "Antonette Arogo",
             position: "Committee Member",
             image: require("../assets/speakers/Antonette Arogo.jpg")
           },
@@ -194,7 +194,7 @@ export default {
             image: require("../assets/speakers/Genaro Gojo Cruz.jpg")
           },
           {
-            name: "Johann Vladimir Espiritu",
+            name: "Johann Espiritu",
             position: "Committee Member",
             image: require("../assets/speakers/Johann Espiritu.jpg")
           },
@@ -216,7 +216,7 @@ export default {
         ],
         members: [
           {
-            name: "Mariane Amor Romina Abuan",
+            name: "Ina Abuan",
             position: "Committee Member",
             image: require("../assets/speakers/Ina Abuan.jpg")
           },
@@ -254,11 +254,18 @@ h1 {
   margin-top: -2.5vw;
 }
 
-h3 {
-  font: 1.5vw atten-new, sans-serif;
+h2 {
+  font: 3vw brandon-grotesque, sans-serif;
+  color: #ff3bb0;
   font-weight: 900;
-  color: white;
-  margin-top: -1.8vh;
+  text-shadow: -0.05vw -0.05vw #ffffff;
+  margin-top: -2.5vw;
+}
+
+h3 {
+  font: 1.3vw atten-new, sans-serif;
+  font-weight: 900;
+  color: white; 
 }
 .d-flex-column {
   margin-top: -2%;
