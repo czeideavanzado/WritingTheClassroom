@@ -9,7 +9,6 @@
           <div class="pink-circle">
             <h3>June 17-19 | AN ONLINE CONFERENCE</h3>
           </div>
-         
         </div>
         <img id="drawing" src="../assets/drawing2.png" width="55%" />
         <div id="about-the-conference">

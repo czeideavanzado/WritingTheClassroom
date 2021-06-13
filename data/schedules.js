@@ -181,6 +181,7 @@ module.exports = [
             title:
               "Hopeful Migrations: Teaching Cathy Garcia-Molina’s “Hello, Love, Goodbye”",
             instructor: "Jose Kervin Cesar B. Calabias",
+            image: require("../src/assets/speakers/Kervin Calabias.jpeg"),
             description:
               "Feminist scholar Neferti Tadiar describes the body of the Filipina domestic worker as a “labour-commodity,” and this “constituent and constituting” national subject is indeed prevalent in contemporary migrant representations where their sacrifice magnifies their remittance heroism. However, while the abject conditions of globalized labor remain, these seem to have overshadowed avowed agencies migrant women possess in shaping their conditions, relations, and futures. This lecture hopes to examine these affective possibilities through the 2019 box-office hit “Hello, Love, Goodbye” directed by Cathy Garcia-Molina. Focusing on the domestic worker Joy (Kathrine Bernardo) and how she navigates cosmopolitan Hong Kong, this class introduces World literature through reshaping/reimagining the country’s “global commodity” into empowered subjects of critical Philippine modernity."
           },
