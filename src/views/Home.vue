@@ -116,7 +116,7 @@
           <div id="rickyleeBio">
             <h4>Bio Note</h4>
             <p>
-              Ricky Lee is the most-awarded scriptwriter in the Philippines. He
+              Mr. Ricardo "Ricky" Lee is the most-awarded scriptwriter in the Philippines. He
               has written 180 produced film scripts, earning him more than 70
               trophies from award-giving bodies, including three life
               achievement awards from the Cinemanila International Film

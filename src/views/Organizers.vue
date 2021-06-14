@@ -42,7 +42,7 @@
             of cultural production.
           </p>
           <p>
-            Pedagogy in Literature, Cultural, and Performance Studies – on
+            Pedagogy in Literary, Cultural, and Performance Studies – on
             graduate and undergraduate levels; in seminar-lecture and
             craft-workshop courses on histories, genres, and theories of
             literature, culture, performance, and creative writing.
@@ -228,8 +228,72 @@ export default {
           {
             name: "Donna Mina",
             position: "Committee Member",
-            image: require("../assets/speakers/Genaro Gojo Cruz.jpg")
+            image: require("../assets/speakers/Donna Mina.jpg")
           }
+        ]
+      },
+      {
+        division: "Logistics and Documentation",
+        heads: [
+          {
+            name: "Harmony Guevarra",
+            position: "Committee Head:",
+            image: require("../assets/speakers/Harmony Guevarra.jpg")
+          },
+          {
+            name: "Jessel Duque",
+            position: "Co-committee Head",
+            image: require("../assets/speakers/Jessel Duque.jpg")
+          }
+        ],
+        members: [
+          {
+            name: "Jo Sylvelyn Almanzor",
+            position: "Committee Member",
+            image: require("../assets/speakers/Jo Almanzor.jpg")
+          },
+          {
+            name: "Donna Mina",
+            position: "Committee Member",
+            image: require("../assets/speakers/Donna Mina.jpg")
+          },
+          {
+            name: "May Ann Raquepo",
+            position: "Committee Member",
+            image: require("../assets/speakers/May Raquepo.jpg")
+          },
+           {
+            name: "Hannah Pabalan",
+            position: "Committee Member",
+            image: require("../assets/speakers/Hannah Pabalan.jpg")
+          }
+        ]
+      },
+      {
+        division: "Department of Literature Administration",
+        heads: [
+          {
+            name: "Genevieve Asenjo",
+            position: "Chair",
+            image: require("../assets/speakers/Genevieve Asenjo.jpg")
+          },
+          {
+            name: "Johann Espiritu",
+            position: "Vice Chair",
+            image: require("../assets/speakers/Johann Espiritu.jpg")
+          },
+          {
+            name: "Antonette Arogo",
+            position: "Graduate Programs Coordinator",
+            image: require("../assets/speakers/Antonette Arogo.jpg")
+          },
+          {
+            name: "Donna Mina",
+            position: "Department Secretary",
+            image: require("../assets/speakers/Donna Mina.jpg")
+          }
+        ],
+        members: [
         ]
       }
     ]
