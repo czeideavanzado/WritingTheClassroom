@@ -9,6 +9,7 @@ module.exports = [
       },
       {
         text: "Keynote Lecture by Sir Ricky Lee",
+        title: "Keynote Lecture",
         image: require("../src/assets/speakers/Ricky Lee.jpg"),
         imageTitle: "Ricky Lee"
       },
